@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		51592F8B2BD651A200BD734D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592F8A2BD651A200BD734D /* AppDelegate.swift */; };
 		51592F8D2BD651A200BD734D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592F8C2BD651A200BD734D /* SceneDelegate.swift */; };
-		51592F8F2BD651A200BD734D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592F8E2BD651A200BD734D /* ViewController.swift */; };
-		51592F922BD651A200BD734D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 51592F912BD651A200BD734D /* Base */; };
+		51592F8F2BD651A200BD734D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592F8E2BD651A200BD734D /* HomeController.swift */; };
 		51592F942BD651A400BD734D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51592F932BD651A400BD734D /* Assets.xcassets */; };
 		51592F972BD651A400BD734D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 51592F962BD651A400BD734D /* Base */; };
+		51592FA12BD66D8300BD734D /* SpaceGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51592FA02BD66D8300BD734D /* SpaceGrotesk-Regular.ttf */; };
+		51592FA32BD66D8900BD734D /* SpaceGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51592FA22BD66D8900BD734D /* SpaceGrotesk-SemiBold.ttf */; };
+		51592FAF2BD675F400BD734D /* MyCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592FAE2BD675F400BD734D /* MyCardsViewController.swift */; };
+		51592FB12BD6761200BD734D /* RecentTransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592FB02BD6761200BD734D /* RecentTransactionsViewController.swift */; };
+		51592FB32BD6762600BD734D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592FB22BD6762600BD734D /* AccountViewController.swift */; };
+		51592FB52BD6763F00BD734D /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592FB42BD6763F00BD734D /* TransferViewController.swift */; };
+		51592FB72BD6772B00BD734D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592FB62BD6772B00BD734D /* TabBarViewController.swift */; };
+		51592FBB2BD6959A00BD734D /* TileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592FBA2BD6959A00BD734D /* TileButton.swift */; };
+		51592FBD2BD6DCA200BD734D /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592FBC2BD6DCA200BD734D /* Headers.swift */; };
+		51592FBF2BD6EE6F00BD734D /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592FBE2BD6EE6F00BD734D /* Link.swift */; };
+		51592FC12BD7BED000BD734D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592FC02BD7BED000BD734D /* Card.swift */; };
+		51592FC32BD9348400BD734D /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51592FC22BD9348400BD734D /* ListItem.swift */; };
+		5573BA8FD4F80AAC0354F0B9 /* Pods_iBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD6B7AC29BA86C15921EF60 /* Pods_iBank.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36EC359E06FA7197CF963B45 /* Pods-iBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBank.release.xcconfig"; path = "Target Support Files/Pods-iBank/Pods-iBank.release.xcconfig"; sourceTree = "<group>"; };
 		51592F872BD651A200BD734D /* iBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51592F8A2BD651A200BD734D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51592F8C2BD651A200BD734D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		51592F8E2BD651A200BD734D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51592F912BD651A200BD734D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51592F8E2BD651A200BD734D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		51592F932BD651A400BD734D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51592F962BD651A400BD734D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51592F982BD651A400BD734D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51592FA02BD66D8300BD734D /* SpaceGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		51592FA22BD66D8900BD734D /* SpaceGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
+		51592FAE2BD675F400BD734D /* MyCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsViewController.swift; sourceTree = "<group>"; };
+		51592FB02BD6761200BD734D /* RecentTransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionsViewController.swift; sourceTree = "<group>"; };
+		51592FB22BD6762600BD734D /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		51592FB42BD6763F00BD734D /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		51592FB62BD6772B00BD734D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		51592FBA2BD6959A00BD734D /* TileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileButton.swift; sourceTree = "<group>"; };
+		51592FBC2BD6DCA200BD734D /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		51592FBE2BD6EE6F00BD734D /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		51592FC02BD7BED000BD734D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		51592FC22BD9348400BD734D /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		7AD6B7AC29BA86C15921EF60 /* Pods_iBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B23E0FA81A1BF005FD4341 /* Pods-iBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBank.debug.xcconfig"; path = "Target Support Files/Pods-iBank/Pods-iBank.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5573BA8FD4F80AAC0354F0B9 /* Pods_iBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				51592F892BD651A200BD734D /* iBank */,
 				51592F882BD651A200BD734D /* Products */,
+				BE3F88F253A64FA15DC0C0C2 /* Pods */,
+				7F05BD31DFC7DACE45CAD3C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,91 @@
 		51592F892BD651A200BD734D /* iBank */ = {
 			isa = PBXGroup;
 			children = (
-				51592F8A2BD651A200BD734D /* AppDelegate.swift */,
-				51592F8C2BD651A200BD734D /* SceneDelegate.swift */,
-				51592F8E2BD651A200BD734D /* ViewController.swift */,
-				51592F902BD651A200BD734D /* Main.storyboard */,
-				51592F932BD651A400BD734D /* Assets.xcassets */,
-				51592F952BD651A400BD734D /* LaunchScreen.storyboard */,
+				51592FA52BD6737600BD734D /* App */,
+				51592FB92BD6955D00BD734D /* Models */,
+				51592FB82BD6955300BD734D /* Views */,
+				51592FA42BD6735E00BD734D /* Controllers */,
+				51592F9E2BD66D3900BD734D /* Files */,
 				51592F982BD651A400BD734D /* Info.plist */,
 			);
 			path = iBank;
+			sourceTree = "<group>";
+		};
+		51592F9E2BD66D3900BD734D /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				51592F9F2BD66D5800BD734D /* Fonts */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		51592F9F2BD66D5800BD734D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				51592FA22BD66D8900BD734D /* SpaceGrotesk-SemiBold.ttf */,
+				51592FA02BD66D8300BD734D /* SpaceGrotesk-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		51592FA42BD6735E00BD734D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				51592F8E2BD651A200BD734D /* HomeController.swift */,
+				51592FAE2BD675F400BD734D /* MyCardsViewController.swift */,
+				51592FB02BD6761200BD734D /* RecentTransactionsViewController.swift */,
+				51592FB22BD6762600BD734D /* AccountViewController.swift */,
+				51592FB42BD6763F00BD734D /* TransferViewController.swift */,
+				51592FB62BD6772B00BD734D /* TabBarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		51592FA52BD6737600BD734D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				51592F8A2BD651A200BD734D /* AppDelegate.swift */,
+				51592F8C2BD651A200BD734D /* SceneDelegate.swift */,
+				51592F952BD651A400BD734D /* LaunchScreen.storyboard */,
+				51592F932BD651A400BD734D /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		51592FB82BD6955300BD734D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51592FBA2BD6959A00BD734D /* TileButton.swift */,
+				51592FBC2BD6DCA200BD734D /* Headers.swift */,
+				51592FBE2BD6EE6F00BD734D /* Link.swift */,
+				51592FC02BD7BED000BD734D /* Card.swift */,
+				51592FC22BD9348400BD734D /* ListItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51592FB92BD6955D00BD734D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F05BD31DFC7DACE45CAD3C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AD6B7AC29BA86C15921EF60 /* Pods_iBank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE3F88F253A64FA15DC0C0C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98B23E0FA81A1BF005FD4341 /* Pods-iBank.debug.xcconfig */,
+				36EC359E06FA7197CF963B45 /* Pods-iBank.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51592F9B2BD651A400BD734D /* Build configuration list for PBXNativeTarget "iBank" */;
 			buildPhases = (
+				5319BEF27732138136993368 /* [CP] Check Pods Manifest.lock */,
 				51592F832BD651A100BD734D /* Sources */,
 				51592F842BD651A100BD734D /* Frameworks */,
 				51592F852BD651A100BD734D /* Resources */,
+				3027526FBFE54DC899F34C44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,20 +232,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51592FA32BD66D8900BD734D /* SpaceGrotesk-SemiBold.ttf in Resources */,
 				51592F942BD651A400BD734D /* Assets.xcassets in Resources */,
 				51592F972BD651A400BD734D /* Base in Resources */,
-				51592F922BD651A200BD734D /* Base in Resources */,
+				51592FA12BD66D8300BD734D /* SpaceGrotesk-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3027526FBFE54DC899F34C44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iBank/Pods-iBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iBank/Pods-iBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iBank/Pods-iBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5319BEF27732138136993368 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51592F832BD651A100BD734D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51592F8F2BD651A200BD734D /* ViewController.swift in Sources */,
+				51592FBD2BD6DCA200BD734D /* Headers.swift in Sources */,
+				51592FB72BD6772B00BD734D /* TabBarViewController.swift in Sources */,
+				51592FAF2BD675F400BD734D /* MyCardsViewController.swift in Sources */,
+				51592FB32BD6762600BD734D /* AccountViewController.swift in Sources */,
+				51592FBF2BD6EE6F00BD734D /* Link.swift in Sources */,
+				51592FB12BD6761200BD734D /* RecentTransactionsViewController.swift in Sources */,
+				51592FB52BD6763F00BD734D /* TransferViewController.swift in Sources */,
+				51592FC12BD7BED000BD734D /* Card.swift in Sources */,
+				51592F8F2BD651A200BD734D /* HomeController.swift in Sources */,
+				51592FBB2BD6959A00BD734D /* TileButton.swift in Sources */,
+				51592FC32BD9348400BD734D /* ListItem.swift in Sources */,
 				51592F8B2BD651A200BD734D /* AppDelegate.swift in Sources */,
 				51592F8D2BD651A200BD734D /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +307,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51592F902BD651A200BD734D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51592F912BD651A200BD734D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		51592F952BD651A400BD734D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,19 +439,20 @@
 		};
 		51592F9C2BD651A400BD734D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B23E0FA81A1BF005FD4341 /* Pods-iBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9UQV5AUAXV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,27 +460,32 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vorobei.co.iBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		51592F9D2BD651A400BD734D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36EC359E06FA7197CF963B45 /* Pods-iBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9UQV5AUAXV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +493,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vorobei.co.iBank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
